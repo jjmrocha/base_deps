@@ -23,8 +23,8 @@
 -export([boot_apps/0]).
 
 boot_apps() ->
-  ok = application:ensure_started(jsondoc),
-  ok = application:ensure_started(narciso),
+	ok = application:ensure_started(jsondoc),
+	ok = application:ensure_started(narciso),
 	ok = application:ensure_started(worker_pool),
 	ok = application:ensure_started(async),
 	ok = application:ensure_started(event_broker),
