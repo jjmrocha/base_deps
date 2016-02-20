@@ -21,6 +21,14 @@
 	]},
 	{applications, [
 		kernel, 
-		stdlib
+		stdlib,
+		jsondoc,
+		narciso,
+		worker_pool,
+		async,
+		event_broker,
+		columbo,
+		cclock,
+		gibreel
 	]}
 ]}.
