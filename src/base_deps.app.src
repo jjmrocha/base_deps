@@ -26,8 +26,8 @@
 		narciso,
 		worker_pool,
 		async,
-		event_broker,
 		columbo,
+		event_broker,
 		cclock,
 		gibreel
 	]}
