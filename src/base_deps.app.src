@@ -24,10 +24,8 @@
 		stdlib,
 		jsondoc,
 		narciso,
-		worker_pool,
 		async,
 		columbo,
-		event_broker,
 		cclock,
 		gibreel
 	]}
